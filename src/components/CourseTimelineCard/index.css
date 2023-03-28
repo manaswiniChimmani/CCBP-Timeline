@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.course-contaier {
+  font-family: 'Roboto';
+}
+.title-duration-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.title {
+  color: #1e293b;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.duration-con {
+  display: flex;
+  align-items: center;
+}
+
+.duration {
+  font-size: 14px;
+  color: #1e293b;
+}
+.icon {
+  margin-right: 5px;
+}
+
+.description {
+  font-size: 16px;
+  color: #1e293b;
+}
+
+.tags-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tag {
+  background-color: #c6d8f5;
+  border-radius: 5px;
+  margin: 7px;
+  padding: 5px;
+}
